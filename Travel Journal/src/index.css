@@ -1,66 +1,93 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
 /* HEADER */
 
-.header{
+.header {
   height: 60px;
   background-color: transparent;
   backdrop-filter: blur(10px);
   position: fixed;
   width: 100%;
-
-  
 }
 
-.header__nav{
+.header__nav {
   display: flex;
   justify-content: center;
 }
 
-.header__nav ul{
+.header__nav ul {
   display: flex;
-  justify-content: space-around; 
+  justify-content: space-around;
   align-items: center;
   height: 60px;
   width: 40%;
   list-style: none;
 }
 
-.header__nav a{
+.header__nav a {
   color: black;
   text-decoration: none;
   z-index: 100;
 }
 
-  /* MAIN */
+/* MAIN */
 
-  .main{
-    background: url(./components/img/mountain-bg.jpg);
-    height: 100vh;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.main {
+  background: url(./components/img/mountain-bg.jpg);
+  height: 100vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .main__container-title{
-    font-size: 4vw;
-    margin-bottom: 10px;
-  }
+.main__container-title {
+  font-size: 4vw;
+  margin-bottom: 10px;
+}
 
-  .main__container-quote{
-    font-size: 1.5vw;
-    margin-bottom: 10px;
-  }
+.main__container-quote {
+  font-size: 1.5vw;
+  margin-bottom: 10px;
+}
 
-  .main__container-author{
-    font-size: 1vw;
-    font-style: italic;
-    text-align: right;
+.main__container-author {
+  font-size: 1vw;
+  font-style: italic;
+  text-align: right;
+}
 
-    
-  }
+/* EXPLORE */
+
+.explore {
+  background-color: #0f0001;
+  color: white;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.explore__text {
+  padding: 20px;
+  width: 50%;
+  height: 25%;
+}
+
+.explore__text-title {
+  text-align: center;
+    font-size: 2vw;
+    margin-bottom: 15px;
+
+}
+
+.explore__text-text {
+  text-align: center;
+  font-size: 1vw;
+  margin: 0 40px;
+
+}
