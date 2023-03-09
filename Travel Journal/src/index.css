@@ -32,3 +32,33 @@
   text-decoration: none;
   z-index: 100;
 }
+
+  /* MAIN */
+
+  .main{
+    background: url(./components/img/mountain-bg.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main__container-title{
+    font-size: 4vw;
+    margin-bottom: 10px;
+  }
+
+  .main__container-quote{
+    font-size: 1.5vw;
+    margin-bottom: 10px;
+  }
+
+  .main__container-author{
+    font-size: 1vw;
+    font-style: italic;
+    text-align: right;
+
+    
+  }
