@@ -8,7 +8,9 @@
 .header{
   height: 60px;
   background-color: transparent;
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  width: 100%;
 
   
 }
