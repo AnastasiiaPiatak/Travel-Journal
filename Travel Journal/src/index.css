@@ -66,28 +66,62 @@
 .explore {
   background-color: #0f0001;
   color: white;
-  height: 95vh;
-  display: flex;
-  justify-content: center;
-  align-content: center;
+  height: 800px;
 }
 
 .explore__text {
   padding: 20px;
-  width: 50%;
   height: 25%;
 }
 
 .explore__text-title {
   text-align: center;
-    font-size: 2vw;
-    margin-bottom: 15px;
-
+  font-size: 2vw;
+  margin-bottom: 15px;
 }
 
 .explore__text-text {
+  width: 50%;
   text-align: center;
   font-size: 1vw;
-  margin: 0 40px;
+  margin: 0 auto;
+}
 
+.explore__gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.explore__gallery-card {
+  margin: 15px 30px;
+  position: relative;
+}
+
+.explore__gallery-card img {
+  width: 400px;
+  height: 500px;
+  transition: all 200ms ease-in;
+  transform: scale(1);
+}
+
+.explore__gallery-card img:hover {
+  transition: all 200ms ease-in;
+  transform: scale(1.1);
+}
+
+.explore__gallery-cardWrapper {
+  width: 400px;
+  position: absolute;
+  bottom: 25px;
+  text-align: center;
+}
+
+.explore__galery-cardTitle {
+  font-size: 1.6vw;
+  margin-bottom: 5px;
+}
+
+.explore__galery-cardText {
+  font-size: 1.2vw;
 }
