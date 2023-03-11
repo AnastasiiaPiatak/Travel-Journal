@@ -125,3 +125,58 @@
 .explore__galery-cardText {
   font-size: 1.2vw;
 }
+
+/* JOURNAL */
+
+.journal {
+  background-color: #0f0001;
+  color: white;
+  height: 800px;
+}
+
+.journal__text {
+  padding: 20px;
+  height: 25%;
+}
+
+.journal__text-title {
+  text-align: center;
+  font-size: 2vw;
+  margin-bottom: 15px;
+}
+
+.journal__text-text {
+  width: 50%;
+  text-align: center;
+  font-size: 1vw;
+  margin: 0 auto;
+}
+
+.journal__gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.journal__gallery-card {
+  margin: 15px 30px;
+}
+
+.journal__gallery-text {
+  width: 400px;
+  text-align: center;
+}
+
+.journal__gallery-textData {
+  margin-bottom: 10px;
+  font-size: 1vw;
+}
+
+.journal__gallery-textTitle {
+  margin-bottom: 10px;
+  font-size: 1.4vw;
+}
+
+.journal__gallery-textInfo {
+  font-size: 1.1vw;
+}
