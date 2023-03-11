@@ -6,3 +6,4 @@ This project was created for the Skrimba React (second section).
 1. HTML/CSS;
 2. JS;
 3. React;
+4. Vite;
