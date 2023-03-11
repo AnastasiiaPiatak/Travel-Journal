@@ -103,6 +103,7 @@
   height: 500px;
   transition: all 200ms ease-in;
   transform: scale(1);
+  cursor: pointer;
 }
 
 .explore__gallery-card img:hover {
@@ -136,7 +137,7 @@
 
 .journal__text {
   padding: 20px;
-  height: 25%;
+  height: 20%;
 }
 
 .journal__text-title {
@@ -155,19 +156,26 @@
 .journal__gallery {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .journal__gallery-card {
-  margin: 15px 30px;
+  padding: 15px 30px;
+  height: 80%;
+
 }
 
+.journal__gallery-card img{
+  width: 500px;
+  height: 350px;
+ }
+
 .journal__gallery-text {
-  width: 400px;
+  width: 500px;
   text-align: center;
 }
 
 .journal__gallery-textData {
+  margin-top: 5px;
   margin-bottom: 10px;
   font-size: 1vw;
 }
